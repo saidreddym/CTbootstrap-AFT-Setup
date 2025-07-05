@@ -21,7 +21,7 @@ module "aft_pipeline" {
   audit_account_id                                 = "553410889852"
   aft_management_account_id                        = "747143892720"
   ct_home_region                                   = "us-east-1"
-  tf_backend_secondary_region                      = "af-south-1"
+  /*tf_backend_secondary_region                      = "af-south-1"*/
   
   # Terraform variables
   terraform_version                                = "1.6.0"
